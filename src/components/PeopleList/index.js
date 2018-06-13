@@ -23,11 +23,11 @@ class PeopleList extends PureComponent {
     const peopleItems = this.props.people.map(people => (
       <ListItem key={people.name}>
         <h2>{people.name}</h2>
-        <h4>Birth year: {people.birth_year}</h4>
-        <h4>Eye color: {people.eye_color}</h4>
-        <h4>Gender: {people.male}</h4>
-        <h4>Mass: {people.mass}</h4>
-        <h4>Skin color: {people.skin_color}</h4>
+        <h4>Ano de nascimento: {people.birth_year}</h4>
+        <h4>Cor dos olhos: {people.eye_color}</h4>
+        <h4>Gênero: {people.male}</h4>
+        <h4>Massa: {people.mass}</h4>
+        <h4>Cor da pele: {people.skin_color}</h4>
       </ListItem>
     ));
     return (

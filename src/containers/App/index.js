@@ -10,7 +10,7 @@ import { AppWrapper, Title } from './styles';
 const App = () => (
   <Provider store={store}>
     <AppWrapper>
-      <Title>Peronagens Star Wars </Title>
+      <Title>Personagens Star Wars </Title>
       <PeopleList />
     </AppWrapper>
   </Provider>

@@ -25,7 +25,7 @@ class PeopleList extends PureComponent {
         <h2>{people.name}</h2>
         <h4>Birth year: {people.birth_year}</h4>
         <h4>Eye color: {people.eye_color}</h4>
-        <h4>Gender: {people.male}</h4>
+        <h4>Gender: {people.gender}</h4>
         <h4>Mass: {people.mass}</h4>
         <h4>Skin color: {people.skin_color}</h4>
       </ListItem>
